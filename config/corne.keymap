@@ -26,10 +26,10 @@
 
         raise {
             bindings = <
-&bt BT_CLR_ALL  &none  &none       &none      &none      &none        &none    &none     &kp UP_ARROW  &none      &none  &none
-&none           &none  &kp INSERT  &kp HOME   &kp PG_UP  &none        &none    &kp LEFT  &kp DOWN      &kp RIGHT  &none  &kp KP_NUMLOCK
-&kp LSHFT       &none  &none       &kp END    &kp PG_DN  &none        &none    &none     &none         &none      &none  &kp RSHFT
-                                   &kp LCTRL  &mo 3      &kp SPACE    &kp RET  &none     &kp RALT
+&bt BT_CLR_ALL  &none  &none       &none      &none      &bt BT_SEL 0    &bt BT_SEL 1  &none     &kp UP_ARROW  &none      &none  &none
+&none           &none  &kp INSERT  &kp HOME   &kp PG_UP  &none           &none         &kp LEFT  &kp DOWN      &kp RIGHT  &none  &kp KP_NUMLOCK
+&kp LSHFT       &none  &none       &kp END    &kp PG_DN  &none           &none         &none     &none         &none      &none  &kp RSHFT
+                                   &kp LCTRL  &mo 3      &kp SPACE       &kp RET       &none     &kp RALT
             >;
         };
 
